@@ -1,0 +1,121 @@
+body {
+    background-color: #333;
+  }
+  .bgColor {
+    padding: 40px;
+  }
+  h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+  }
+  .firstPara {
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  
+  img {
+    width: 100px;
+  }
+  
+  .center .slick-center .sliderDiv {
+    color: #333;
+    opacity: 1;
+    -ms-transform: scale(1.08);
+    transform: scale(1.08);
+  }
+  
+  .center .sliderDiv {
+    opacity: 0.8;
+    transition: all 0.3s ease;
+  }
+  .sliderDiv {
+    background-color: #fff;
+    text-align: center;
+  }
+  .sliderImg {
+    background-color: #f74582;
+  }
+  .slick-slide img {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .sliderDetail {
+    padding: 30px;
+  }
+  .sliderDiv h3 {
+    color: #333;
+    font-size: 25px;
+    margin: 6px 0px;
+  }
+  .sliderDetail p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #525151;
+  }
+  .slick-slider .slick-list {
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-height: 590px;
+  }
+  .slick-slider .slick-track {
+    top: 30px;
+  }
+  .slick-slider .slick-arrow {
+    z-index: 999;
+  }
+  .slick-slider .slick-arrow:before {
+    position: absolute;
+    content: "";
+    opacity: 1;
+    height: 40px;
+    width: 40px;
+    z-index: 99;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: all 0.3s ease;
+    top: 0px;
+  }
+  .slick-slider .slick-arrow:hover:before {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+  }
+  .slick-slider .slick-prev {
+    left: -8%;
+  }
+  .slick-slider .slick-next {
+    right: -8%;
+  }
+  .slick-slider .slick-prev:before {
+    left: 0px;
+    background-image: url(../../Images/arrow.png);
+  }
+  .slick-slider .slick-next:before {
+    right: -0px;
+    background-image: url(../../Images/arrowright.png);
+  }
+  
+  
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .slick-slider .slick-list {
+      min-height: 650px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .bgColor {
+      background-color: #333;
+      padding: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .slick-slider {
+      min-height: 610px;
+    }
+  }
+  
